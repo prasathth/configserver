@@ -1,0 +1,18 @@
+{
+  "name":"application",
+  "profiles":[
+    "default"
+  ],
+  "label":null,
+  "version":"536c86c16d219def64f02667749548f1e2a7a27f",
+  "state":null,
+  "propertySources":[
+    {
+      "name":"/resources/application.yml",
+      "source":{
+        "values.downstreamurl":"https://defaulturl.com - this is from application.yml",
+        "values.list":"hello word, hi, welcome"
+      }
+    }
+  ]
+}
